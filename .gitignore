@@ -88,3 +88,7 @@ examples/wsperf/wsperf_client
 *.vcxproj.filters
 *.user
 install
+
+# Eclipse
+Debug/
+Release/

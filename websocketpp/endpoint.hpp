@@ -563,7 +563,6 @@ public:
      * @param [in] hdl The handle identifying the connection to send via.
      * @param [in] payload The payload string to generated the message with
      * @param [in] op The opcode to generated the message with.
-     * @param [out] ec A code to fill in for errors
      */
     void send(connection_hdl hdl, std::string const & payload,
         frame::opcode::value op);
